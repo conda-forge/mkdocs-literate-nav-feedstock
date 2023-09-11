@@ -1,13 +1,13 @@
 {% set name = "mkdocs-literate-nav" %}
-{% set version = "0.4.1" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9efe26b662f2f901cae5807bfd51446d30ea7e033c2bc43a15d6282c7dfac1ab
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 78a7ab6d878371728acb0cdc6235c9b0ffc6e83c997b037f4a5c6ff7cef7d759
 
 build:
   number: 0
