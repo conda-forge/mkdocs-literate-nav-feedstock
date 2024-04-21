@@ -1,6 +1,6 @@
 conda_forge_output_validation: true
 bot:
-  inspect: update-grayskull
+  inspection: update-grayskull
   automerge: true
 github:
   branch_name: main
