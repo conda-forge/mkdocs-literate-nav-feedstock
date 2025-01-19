@@ -148,4 +148,5 @@ Feedstock Maintainers
 =====================
 
 * [@cpcloud](https://github.com/cpcloud/)
+* [@dhirschfeld](https://github.com/dhirschfeld/)
 
